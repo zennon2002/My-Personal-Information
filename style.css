@@ -1,0 +1,40 @@
+body {
+    background-image: url('/images/neom-SGZ5DkDOoRo-unsplash.jpg');
+    background-size: cover; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+#introduction{
+    display:flex;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.about OBJECTIVE{
+    color: #b40365;
+}
+#impl{
+    color: aliceblue;
+}
+#name{
+    font-size: 30px;
+}
+#med{
+    border-radius: 100px;
+    width: 500px;
+    display: flex;   
+    justify-content: space-evenly; 
+     background-color: bisque;
+     opacity: 0.90;
+}
+#med > a > img {
+    width: 50px;
+}
+/* *{
+    border: 1px solid red;
+} */
+
